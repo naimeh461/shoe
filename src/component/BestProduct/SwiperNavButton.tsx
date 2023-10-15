@@ -4,7 +4,6 @@ import { BsArrowLeft , BsArrowRight} from "react-icons/bs";
 import "./styles.css"
 export const SwiperNavButtons = () => {
   const swiper = useSwiper();
-
   return (
     <div className="swiper-nav-btns text-center  ">
       <div className='flex justify- gap-4'>
